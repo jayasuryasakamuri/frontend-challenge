@@ -1,6 +1,6 @@
 # I am using React for the challenge
 
-### ` yarn start will run it locally `
+### ` yarn start will run it on localhost:3000 `
 
 ` Packages Used `:
 
