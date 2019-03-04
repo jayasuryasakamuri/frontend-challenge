@@ -33,7 +33,7 @@ const App = () => {
 
 	const changeItemValue=(id,key,ref)=>{
 		let updatedItems = items.map(item =>{
-			if(item.id === id && item[key] !== ref.current.innerText.trim()){
+			if(item.id === id && item[key] !== ref.current.innerHTML.trim()){
 				item[key] = ref.current.innerHTML.trim();
 			}
 			return item; 

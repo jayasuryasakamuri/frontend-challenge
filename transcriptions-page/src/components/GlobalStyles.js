@@ -14,7 +14,16 @@ const GlobalStyles = createGlobalStyle`
         font-family: 'Montserrat', sans-serif;
         padding:0;
         margin:0;
-	}
+    }
+    
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: #ddd;
+    }
 `
 
 export default GlobalStyles;

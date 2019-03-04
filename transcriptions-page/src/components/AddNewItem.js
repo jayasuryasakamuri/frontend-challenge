@@ -4,7 +4,7 @@ import Img from './GetImg'
 
 const AddNewItem = styled.div`
     text-align : center;
-    margin-top:30px;
+    margin:30px 0;
 
     img {
         cursor:pointer;
